@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: twitterclone_development
+
+test:
+  adapter: postgresql
+  database: twitterclone_test
