@@ -1,0 +1,4 @@
+<h1>All the Tweets</h1>
+<% @tweets.each do |tweet| %>
+  <p><%= tweet.content %> tweeted by <%= tweet.user.email %><p> 
+<% end %>
